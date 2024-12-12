@@ -1,3 +1,6 @@
+console.log('hello, world');
+
+
 const cardTemplate = document.querySelector("#card-template").content;
 const placesList = document.querySelector(".places__list");
 
