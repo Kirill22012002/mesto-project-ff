@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf dist && webpack",
+    "dev": "webpack serve"
   },
   "author": "Kirill Perepechkin",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^5.97.1"
+    "webpack": "^5.97.1",
+    "webpack-dev-server": "^5.2.0"
   }
 }
